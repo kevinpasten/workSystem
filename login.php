@@ -14,25 +14,24 @@
 <body>
     
     <div class="container d-flex justify-content-center align-items-center login">
-        <div class="row">
-
+        <div class="col-md-4 text-center">
             <h1>M.O.P.</h1>
-            <h6>Multi-Organizador de Proyectos</h6>
+            <h6>Multi-Organizador de Proyectos</h6>             
+            <label for="email">Email: </label>
+            <input class="form-control" type="text" name="email" placeholder="Ingresar usuario" id="">
+            <label for="clave">Contraseña: </label>
+            <input class="form-control" type="password" name="clave" id="">               
+            
 
-            <div class="row row-cols-1 justify-content-start">
-                <div class="flex-row-2">
-                    <label for="usuario">Usuario: </label>
-                    <input type="text" name="usuario" placeholder="Ingresar usuario" id="">
+            <div class="row">
+                <div class="form-check text-start">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">Default checkbox</label>
                 </div>
-                
-                <div class="flex-row">
-                <label for="clave">Contraseña: </label>
-                <input type="password" name="clave" id="">
-                </div>
-
-                
             </div>
+                
         </div>
+        
     </div>
     
     <!-- live server para php "livereload" implementado con noje.js -->

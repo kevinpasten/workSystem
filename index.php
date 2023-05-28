@@ -9,7 +9,23 @@
 </head>
 <body>
     
-    <h1>Special Delivery</h1>
+    <div class="row-md-4 text-center">
+        <h1>Special Delivery</h1>
+        <h2>lo logr2e</h2>
+        
+        <div class="container text-center">
+            <div class="row row-cols-2">
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- live server para php "livereload" implementado con noje.js -->
+    <script src="//localhost:35729/livereload.js"></script>
 
 </body>
 </html>

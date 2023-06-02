@@ -24,71 +24,96 @@
         </div>
         <ul class="nav_list">
             <li>
-                <i class="bx bx-search form-control-feedback"></i>
-                <input class="form-control" type="text" placeholder="Buscar...">
-                <!-- <span class="tooltip">dashboard</span> -->
+                <i class="bx bx-search"></i>
+                <input type="text" placeholder="Buscar...">
+                <span class="tooltip">Buscar</span>
             </li>
             <li>
                 <a href="#">
                     <i class="bx bx-home"></i>
                     <span class="links_name">Inicio</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Inicio</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-briefcase'></i>
                     <span class="links_name">Proyectos</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Proyectos</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-dollar-circle' ></i>
                     <span class="links_name">Presupuestos</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Presupuestos</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-duplicate' ></i>
                     <span class="links_name">Solicitudes</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Solicitudes</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-clipboard' ></i>
                     <span class="links_name">Reportes</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Reportes</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-wrench'></i>
                     <span class="links_name">Mantenciones</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Mantenciones</span>
             </li>
             <li>
                 <a href="#">
                     <i class="bx bx-user"></i>
                     <span class="links_name">Usuarios</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Usuarios</span>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bx-pie-chart' ></i>
                     <span class="links_name">Estadísticas</span>
                 </a>
-                <!-- <span class="tooltip">dashboard</span> -->
+                <span class="tooltip">Estadísticas</span>
             </li>
         </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="recursos/avatar/rectangle 2.png" alt="">
+                    <div class="name_job">
+                        <div class="name">Usuario</div>
+                        <div class="job">Administrador</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">Home contenido</div>
     </div>
 
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
 
-
+        btn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active");
+        }
+    </script>
 
 
 

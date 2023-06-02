@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/bootstrap-5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="recursos/boxicons-2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>M.O.P. Home</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-atom'></i>
+                <div class="logo_nombre">MOP</div>
+            </div>
+            <i class="bx bx-menu" id="btn" ></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class="bx bx-search form-control-feedback"></i>
+                <input class="form-control" type="text" placeholder="Buscar...">
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-home"></i>
+                    <span class="links_name">Inicio</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-briefcase'></i>
+                    <span class="links_name">Proyectos</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-dollar-circle' ></i>
+                    <span class="links_name">Presupuestos</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-duplicate' ></i>
+                    <span class="links_name">Solicitudes</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-clipboard' ></i>
+                    <span class="links_name">Reportes</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-wrench'></i>
+                    <span class="links_name">Mantenciones</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-user"></i>
+                    <span class="links_name">Usuarios</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-pie-chart' ></i>
+                    <span class="links_name">Estadísticas</span>
+                </a>
+                <!-- <span class="tooltip">dashboard</span> -->
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <!-- live server para php "livereload" implementado con noje.js -->
+    <script src="//localhost:35729/livereload.js"></script>
+    <!---->
+    
+    <script src="recursos/bootstrap-5.2.3/js/bootstrap.min.js"></script>
+</body>
+</html>

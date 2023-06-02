@@ -8,10 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="recursos/bootstrap-5.2.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="recursos/css/login.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Iniciar Sesión</title>
 </head>
-
 <body>
 
     <div class="login shadow-lg">
@@ -47,6 +46,6 @@
     <!---->
     
     <script src="recursos/bootstrap-5.2.3/js/bootstrap.min.js"></script>
-    <script src="validar.js"></script>
+    <script src="../controller/validar.js"></script>
 </body>
 </html>

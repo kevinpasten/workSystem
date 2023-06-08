@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <div class="sidebar">
+<div class="sidebar">
         <div class="logo_content">
             <div class="logo">
                 <i class='bx bx-atom'></i>
@@ -102,8 +102,11 @@
     </div>
     <!-- Contenido principal (Main) -->
     <div class="home_content container">
-        <div class="text">Home Inicio</div>
+        <div class="text">Reportes</div>
     </div>
+
+
+
 
 
     <!-- live server para php "livereload" implementado con noje.js -->
